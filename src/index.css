@@ -1,0 +1,41 @@
+:root {
+  --bg: #0d0620;
+  --panel: #1a1030;
+  --pink: #ff3caa;
+  --cyan: #00e5ff;
+  --yellow: #ffe600;
+  --purple: #7a6fd8;
+  --text: #e8e3ff;
+
+  color-scheme: dark;
+  font-family: 'VT323', 'Courier New', monospace;
+  color: var(--text);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 20% 0%, #2a1358 0%, transparent 45%),
+    radial-gradient(circle at 80% 100%, #14324d 0%, transparent 45%),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
