@@ -1,0 +1,7 @@
+{
+  "chat.agent.enabled": true,
+  "github.copilot.enable": {
+    "*": true
+  },
+  "chat.mcp.access": "registry"
+}
